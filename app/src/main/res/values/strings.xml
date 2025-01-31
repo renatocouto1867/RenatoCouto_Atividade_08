@@ -13,6 +13,13 @@
     <string name="menu_analise">Analise Acessibilidade</string>
     <string name="resumo_video_1">O Android Studio 3.0 introduziu o Android Profiler, uma ferramenta unificada para monitorar CPU, memória e rede, substituindo o antigo Android Monitor. Ele permite análises detalhadas, como rastreamento de métodos, consumo de memória e inspeção de chamadas de rede, com maior precisão em dispositivos com API 26 ou superior. O CPU Profiler registra a execução de threads, o Memory Profiler identifica vazamentos de memória e o Network Profiler analisa requisições HTTP. Em versões anteriores ao Android O, há limitações na captura de dados. O Google promete continuar aprimorando a ferramenta com novos recursos.</string>
     <string name="resumo_video_3">Com a previsão de um bilhão de novos usuários online até 2017, há uma grande oportunidade de expandir negócios em mercados emergentes. Para isso, é essencial adaptar aplicativos para diferentes idiomas, interfaces simples, dispositivos de baixo custo e conexões instáveis. Além disso, é importante otimizar o uso de memória, dados e bateria, garantindo compatibilidade com versões mais antigas do Android. Estratégias de promoção e suporte local também são fundamentais para engajamento e crescimento. O Google recomenda testes, localização de preços e campanhas otimizadas para alcançar novos públicos.</string>
+    <string name="ver_analise">Ver Análise</string>
+    <string name="anterior">Anterior</string>
+    <string name="pr_xima">Próxima</string>
+    <string name="voltar">Voltar</string>
+    <string name="print_da_tela_analisada">Print da tela analisada</string>
+    <string name="ler_texto">Ler texto</string>
+    <string name="enviar">Enviar</string>
 
 
     <string-array name="texto_analise">

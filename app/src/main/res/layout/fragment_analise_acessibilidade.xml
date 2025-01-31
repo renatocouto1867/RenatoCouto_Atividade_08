@@ -30,6 +30,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/screen1"
+                    android:contentDescription="@string/print_da_tela_analisada"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -51,7 +52,7 @@
                         android:layout_marginEnd="3dp"
                         android:layout_weight="1"
                         android:background="@color/coral"
-                        android:contentDescription="Anterior"
+                        android:contentDescription="@string/anterior"
                         android:src="@drawable/voltar" />
 
                     <com.google.android.material.button.MaterialButton
@@ -63,7 +64,7 @@
                         android:layout_weight="1"
                         android:backgroundTint="@color/coral"
                         android:gravity="center"
-                        android:text="Ver Análise"
+                        android:text="@string/ver_analise"
                         android:textColor="@color/white"
                         app:cornerRadius="0dp" />
 
@@ -74,7 +75,7 @@
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
                         android:background="@color/coral"
-                        android:contentDescription="Próxima"
+                        android:contentDescription="@string/pr_xima"
                         android:src="@drawable/proximo" />
 
                 </LinearLayout>
@@ -109,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/coral"
                     android:gravity="center"
-                    android:text="Voltar"
+                    android:text="@string/voltar"
                     android:textColor="@color/white"
                     app:cornerRadius="0dp"
                     app:layout_constraintBottom_toBottomOf="parent"
