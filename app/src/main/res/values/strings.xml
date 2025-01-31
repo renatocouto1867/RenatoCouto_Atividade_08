@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">RenatoCouto_Atividade_08</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_sair">Sair</string>
+    <string name="titulo_app">Atividade 08</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_resumo_primeiro">Ler resumo video 1</string>
+    <string name="menu_resumo_terceiro">Enviar resumo video 3</string>
+    <string name="menu_analise">Analise Acessibilidade</string>
+
+
+    <string-array name="texto_analise">
+        <item>\nNenhuma sugestão de mudança!</item>
+
+        <item>\nNenhuma sugestão de mudança!</item>
+
+        <item>Contraste do texto\n
+id/buttonSair\n\n
+Considere aumentar a taxa de contraste do primeiro plano e do plano de fundo do texto neste item.\n\n
+A taxa de contraste do texto no item é 2,73. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #FF6F61. Aumente esse valor para 4,50 ou mais.\n\n
+Contraste do texto\n
+id/buttonNovoJogo\n\n
+Considere aumentar a taxa de contraste do primeiro plano e do plano de fundo do texto neste item.\n\n
+A taxa de contraste do texto no item é 1,64. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #A5D6A7. Aumente esse valor para 4,50 ou mais.</item>
+
+        <item>Contraste do texto\n
+id/buttonSair\n\n
+Considere aumentar a taxa de contraste do primeiro plano e do plano de fundo do texto neste item.\n\n
+A taxa de contraste do texto no item é 2,00. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #4FC3F7. Aumente esse valor para 3,00 ou mais.\n\n
+Contraste do texto\n
+id/button_zera\n\n
+Considere aumentar a taxa de contraste do primeiro plano e do plano de fundo do texto neste item.\n\n
+A taxa de contraste do texto no item é 2,73. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #FF6F61. Aumente esse valor para 3,00 ou mais.</item>
+
+        <item>Contraste do texto\n
+id/button_cancelar\n\n
+Considere aumentar a taxa de contraste do primeiro plano e do plano de fundo do texto neste item.\n\n
+A taxa de contraste do texto no item é 2,00. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #4FC3F7. Aumente esse valor para 4,50 ou mais.</item>
+    </string-array>
+
+</resources>
