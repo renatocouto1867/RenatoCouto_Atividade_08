@@ -4,40 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
     tools:context=".ui.resumoterceirovideo.TerceiroVideoFragment">
 
-    <TextView
-        android:id="@+id/text_resultado"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/resumo_video_3"
-        android:textSize="21sp"
-        />
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_enviar"
-        style="@style/Widget.MaterialComponents.TimePicker.ImageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/green"
-        android:gravity="center"
-        app:icon="@drawable/whatsapp"
-        app:iconSize="24dp"
-        app:iconTint="@color/white"
-        app:iconPadding="3dp"
-        android:text="@string/enviar"
-        android:textColor="@color/white"
-        app:cornerRadius="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_resultado" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
 
+            <TextView
+                android:id="@+id/text_resultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/resumo_video_3"
+                android:textSize="21sp"
+                android:layout_marginBottom="12dp" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_enviar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:gravity="center"
+                app:icon="@drawable/whatsapp"
+                app:iconSize="24dp"
+                app:iconTint="@color/white"
+                app:iconPadding="3dp"
+                android:text="@string/enviar"
+                android:textColor="@color/white"
+                app:cornerRadius="4dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
 
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

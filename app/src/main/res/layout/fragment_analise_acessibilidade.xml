@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+           <!-- primario -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/analise_principal"
                 android:layout_width="match_parent"
@@ -39,15 +40,17 @@
                     android:id="@+id/layout_buttons"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginHorizontal="30dp"
                     android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/image_view_resultado">
 
+
                     <ImageButton
                         android:id="@+id/button_anterior"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="3dp"
                         android:layout_weight="1"
@@ -58,10 +61,10 @@
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/button_analise"
                         style="@style/Widget.MaterialComponents.TimePicker.ImageButton"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginEnd="3dp"
-                        android:layout_weight="1"
+                        android:layout_weight="2"
                         android:backgroundTint="@color/coral"
                         android:gravity="center"
                         android:text="@string/ver_analise"
@@ -70,7 +73,7 @@
 
                     <ImageButton
                         android:id="@+id/button_proximo"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginStart="3dp"
                         android:layout_weight="1"
@@ -80,8 +83,10 @@
 
                 </LinearLayout>
 
+
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <!-- secundario -->
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/analise_secundario"
                 android:layout_width="match_parent"
